@@ -44,7 +44,7 @@ export const AddApiKeyDialog = () => {
 			<textarea
 				keyBindings={TEXTAREA_KEY_BINDINGS}
 				ref={apiTextarea}
-				onKeyDown={handleSubmit}
+				onSubmit={handleSubmit}
 				placeholder="Enter your API key..."
 				focused
 			/>
